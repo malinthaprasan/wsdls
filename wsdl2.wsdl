@@ -27,7 +27,7 @@
             </xs:complexType>
             <xs:element name = " checkServiceStatusResponse" type = "xs:double" />
             <xs:element name = "dataError" type = "xs:string" />
-            <xs:import namespace="https://www.w3schools.com/schema"/>
+            <xs:import namespace="https://www.w3schools.com/schema" schemaLocation="https://svn.wso2.org/repos/wso2/carbon/platform/trunk/platform-integration/platform-automated-test-suite/org.wso2.carbon.automation.test.repo/src/main/resources/artifacts/GREG/schema/SchemaImportSample.xsd"/>
         </xs:schema>
     </types>
  
