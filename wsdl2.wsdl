@@ -27,6 +27,7 @@
             </xs:complexType>
             <xs:element name = " checkServiceStatusResponse" type = "xs:double" />
             <xs:element name = "dataError" type = "xs:string" />
+            <xs:import namespace="https://www.w3schools.com/schema"/>
         </xs:schema>
     </types>
  
