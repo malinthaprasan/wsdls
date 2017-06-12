@@ -2,7 +2,7 @@
 <wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.webserviceX.NET/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.webserviceX.NET/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:external="http://example.com/a/namespace">
   <wsdl:types>
     <s:schema elementFormDefault="qualified" targetNamespace="http://www.webserviceX.NET/">
-      <xs:import
+      <s:import
             namespace="http://example.com/a/namespace"
             schemaLocation="https://raw.githubusercontent.com/malinthaprasan/wsdls/master/extxsd/stockQuote.xsd"/>
       <s:element name="GetQuoteResponse">
